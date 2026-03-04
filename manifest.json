@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Batch URL Opener",
+  "version": "1.0",
+  "description": "High-performance batch URL opener with memory discarding and lazy loading.",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
